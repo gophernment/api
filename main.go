@@ -31,7 +31,7 @@ const (
 
 var (
 	buildcommit = "development"
-	buildtime   = time.Now().Format(time.RFC3339)
+	buildtime   = ""
 	version     = "no version"
 )
 
